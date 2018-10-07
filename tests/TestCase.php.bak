@@ -122,7 +122,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
 
     public function getResponseByRouteName($route_name, $input = [], $file = [])
     {
-        $response = $this->call('GET', route('unisharp.lfm.' . $route_name), $input, $file);
+        $response = $this->call('GET', route('dkvhin.lfm.' . $route_name), $input, $file);
         $data = json_encode($response);
 
         return $response->getContent();

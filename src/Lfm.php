@@ -241,7 +241,7 @@ class Lfm
     public static function routes()
     {
         $middleware = [ CreateDefaultFolder::class, MultiUser::class ];
-        $as = 'unisharp.lfm.';
+        $as = 'dkvhin.lfm.';
 
         Route::group(compact('middleware', 'as'), function () {
             $namespace = '\\Dkvhin\\LaravelFilemanager\\Controllers\\';

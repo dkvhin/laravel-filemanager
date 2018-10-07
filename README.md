@@ -1,25 +1,25 @@
-<p align="center"><img src="https://unisharp.github.io/laravel-filemanager/images/logo_type_1.png"></p>
+<p align="center"><img src="https://dkvhin.github.io/laravel-filemanager/images/logo_type_1.png"></p>
 
 [![Travis CI](https://img.shields.io/travis/UniSharp/laravel-filemanager.svg)](https://travis-ci.org/UniSharp/laravel-filemanager)
-[![Total Downloads](https://poser.pugx.org/unisharp/laravel-filemanager/downloads)](https://packagist.org/packages/unisharp/laravel-filemanager)
-[![Latest Unstable Version](https://img.shields.io/badge/unstable-v2.0.0--alpha4-orange.svg)](https://packagist.org/packages/unisharp/laravel-filemanager)
-[![Latest Stable Version](https://poser.pugx.org/unisharp/laravel-filemanager/v/stable)](https://packagist.org/packages/unisharp/laravel-filemanager)
-[![License](https://poser.pugx.org/unisharp/laravel-filemanager/license)](https://packagist.org/packages/unisharp/laravel-filemanager)
+[![Total Downloads](https://poser.pugx.org/dkvhin/laravel-filemanager/downloads)](https://packagist.org/packages/dkvhin/laravel-filemanager)
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-v2.0.0--alpha4-orange.svg)](https://packagist.org/packages/dkvhin/laravel-filemanager)
+[![Latest Stable Version](https://poser.pugx.org/dkvhin/laravel-filemanager/v/stable)](https://packagist.org/packages/dkvhin/laravel-filemanager)
+[![License](https://poser.pugx.org/dkvhin/laravel-filemanager/license)](https://packagist.org/packages/dkvhin/laravel-filemanager)
 
- * Document : [unisharp.github.io/laravel-filemanager](http://unisharp.github.io/laravel-filemanager/)
-   * [Installation](http://unisharp.github.io/laravel-filemanager/installation)
-   * [Integration](http://unisharp.github.io/laravel-filemanager/integration)
-   * [Config](http://unisharp.github.io/laravel-filemanager/config)
-   * [Customization](http://unisharp.github.io/laravel-filemanager/customization)
-   * [Events](http://unisharp.github.io/laravel-filemanager/events)
-   * [Upgrade](http://unisharp.github.io/laravel-filemanager/upgrade)
+ * Document : [dkvhin.github.io/laravel-filemanager](http://dkvhin.github.io/laravel-filemanager/)
+   * [Installation](http://dkvhin.github.io/laravel-filemanager/installation)
+   * [Integration](http://dkvhin.github.io/laravel-filemanager/integration)
+   * [Config](http://dkvhin.github.io/laravel-filemanager/config)
+   * [Customization](http://dkvhin.github.io/laravel-filemanager/customization)
+   * [Events](http://dkvhin.github.io/laravel-filemanager/events)
+   * [Upgrade](http://dkvhin.github.io/laravel-filemanager/upgrade)
  * Demo : [Laravel Filemanager container](https://github.com/UniSharp/laravel-filemanager-example-5.3)
 
 ## Installing alpha version
 The alpha version of `v2.0` contains support of cloud storage and fresh new UI with RWD.
 
- * Run `composer require unisharp/laravel-filemanager:dev-master` to get the latest code.
- * Run `composer require unisharp/laravel-filemanager:v2.0.0-alpha4` to get the latest release of alpha version.
+ * Run `composer require dkvhin/laravel-filemanager:dev-master` to get the latest code.
+ * Run `composer require dkvhin/laravel-filemanager:v2.0.0-alpha4` to get the latest release of alpha version.
 
 ## Errors with namespace
 We have changed namespace from `Unisharp` to `UniSharp`, and change the first character of every namespace into capital.
@@ -27,11 +27,11 @@ We have changed namespace from `Unisharp` to `UniSharp`, and change the first ch
 If you are updating this package and encounter any errors like `Class not found`, please remove this package entirely and reinstall again.
 
 ## v1.8 released
- * Please follow the intructions in [upgrade document](https://unisharp.github.io/laravel-filemanager/upgrade).
+ * Please follow the intructions in [upgrade document](https://dkvhin.github.io/laravel-filemanager/upgrade).
  * Important changes :
    * Fix Windows compatibility (utf-8 file names and folder names).
    * New feature : Copy & Crop. Thanks [gwleuverink](https://github.com/gwleuverink).
-   * [Config document](https://unisharp.github.io/laravel-filemanager/config) is refactored.
+   * [Config document](https://dkvhin.github.io/laravel-filemanager/config) is refactored.
 
 ## Security
 
