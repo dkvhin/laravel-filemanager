@@ -225,7 +225,7 @@ class LfmPath
         event(new ImageIsUploading($new_file_path));
         try {
             $new_file_name = $this->saveFile($file, $new_file_name);
-            ImageOptimizer::optimize($new_file_name);
+            //ImageOptimizer::optimize($new_file_name);
         } catch (\Exception $e) {
             \Log::info($e);
             return $this->error('invalid');
