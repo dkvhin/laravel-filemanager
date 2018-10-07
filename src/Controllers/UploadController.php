@@ -1,13 +1,13 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Dkvhin\LaravelFilemanager\Controllers;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
 use Intervention\Image\Facades\Image;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use UniSharp\LaravelFilemanager\Events\ImageIsUploading;
-use UniSharp\LaravelFilemanager\Events\ImageWasUploaded;
+use Dkvhin\LaravelFilemanager\Events\ImageIsUploading;
+use Dkvhin\LaravelFilemanager\Events\ImageWasUploaded;
 
 /**
  * Class UploadController.

@@ -1,10 +1,10 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Dkvhin\LaravelFilemanager\Controllers;
 
 use Intervention\Image\Facades\Image;
-use UniSharp\LaravelFilemanager\Events\ImageIsCropping;
-use UniSharp\LaravelFilemanager\Events\ImageWasCropped;
+use Dkvhin\LaravelFilemanager\Events\ImageIsCropping;
+use Dkvhin\LaravelFilemanager\Events\ImageWasCropped;
 
 /**
  * Class CropController.

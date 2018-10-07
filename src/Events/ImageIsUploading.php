@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Events;
+namespace Dkvhin\LaravelFilemanager\Events;
 
 class ImageIsUploading
 {

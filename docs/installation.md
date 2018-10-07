@@ -20,7 +20,7 @@
     Add service providers
 
     ```php
-    UniSharp\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
+    Dkvhin\LaravelFilemanager\LaravelFilemanagerServiceProvider::class,
     Intervention\Image\ImageServiceProvider::class,
     ```
 
