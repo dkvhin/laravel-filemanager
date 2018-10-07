@@ -1,9 +1,9 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Middlewares;
+namespace Dkvhin\LaravelFilemanager\Middlewares;
 
 use Closure;
-use UniSharp\LaravelFilemanager\Lfm;
+use Dkvhin\LaravelFilemanager\Lfm;
 
 class MultiUser
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager\Controllers;
+namespace Dkvhin\LaravelFilemanager\Controllers;
 
 class FolderController extends LfmController
 {

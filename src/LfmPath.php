@@ -1,14 +1,14 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Dkvhin\LaravelFilemanager;
 
 use Illuminate\Http\File;
 use Illuminate\Container\Container;
 use Intervention\Image\Facades\Image;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use UniSharp\LaravelFilemanager\Events\ImageIsUploading;
-use UniSharp\LaravelFilemanager\Events\ImageWasUploaded;
-
+use Dkvhin\LaravelFilemanager\Events\ImageIsUploading;
+use Dkvhin\LaravelFilemanager\Events\ImageWasUploaded;
+use ImageOptimizer;
 class LfmPath
 {
     private $working_dir;
@@ -225,6 +225,7 @@ class LfmPath
         event(new ImageIsUploading($new_file_path));
         try {
             $new_file_name = $this->saveFile($file, $new_file_name);
+            ImageOptimizer::optimize($new_file_name);
         } catch (\Exception $e) {
             \Log::info($e);
             return $this->error('invalid');

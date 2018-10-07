@@ -1,12 +1,12 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Dkvhin\LaravelFilemanager;
 
 use Illuminate\Contracts\Config\Repository as Config;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use UniSharp\LaravelFilemanager\Middlewares\CreateDefaultFolder;
-use UniSharp\LaravelFilemanager\Middlewares\MultiUser;
+use Dkvhin\LaravelFilemanager\Middlewares\CreateDefaultFolder;
+use Dkvhin\LaravelFilemanager\Middlewares\MultiUser;
 
 class Lfm
 {
@@ -244,7 +244,7 @@ class Lfm
         $as = 'unisharp.lfm.';
 
         Route::group(compact('middleware', 'as'), function () {
-            $namespace = '\\UniSharp\\LaravelFilemanager\\Controllers\\';
+            $namespace = '\\Dkvhin\\LaravelFilemanager\\Controllers\\';
 
             // display main layout
             Route::get('/', [

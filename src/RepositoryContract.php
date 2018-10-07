@@ -1,6 +1,6 @@
 <?php
 
-namespace UniSharp\LaravelFilemanager;
+namespace Dkvhin\LaravelFilemanager;
 
 interface RepositoryContract
 {
