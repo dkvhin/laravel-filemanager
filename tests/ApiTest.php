@@ -63,7 +63,7 @@ class ApiTest extends Illuminate\Foundation\Testing\TestCase
 
     private function getResponseByRouteName($route_name, $input = [])
     {
-        $response = $this->call('GET', route('unisharp.lfm.' . $route_name), $input);
+        $response = $this->call('GET', route('dkvhin.lfm.' . $route_name), $input);
         $data = json_encode($response);
 
         return $response->getContent();

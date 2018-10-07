@@ -1,5 +1,5 @@
 {
-  "name": "unisharp/laravel-filemanager",
+  "name": "dkvhin/laravel-filemanager",
   "description": "A file upload/editor intended for use with Laravel 5 and CKEditor / TinyMCE",
   "license": "MIT",
   "keywords": [
@@ -19,7 +19,7 @@
     },
     {
       "name": "UniSharp Ltd.",
-      "email": "unisharp-service@unisharp.com"
+      "email": "dkvhin-service@dkvhin.com"
     }
   ],
   "require": {

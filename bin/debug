@@ -11,7 +11,7 @@
 $composerLock = file_get_contents('composer.lock');
 $jsonComposerLock = json_decode($composerLock);
 foreach ($jsonComposerLock->packages as $package) {
-    if ($package->name == 'unisharp/laravel-filemanager')
+    if ($package->name == 'dkvhin/laravel-filemanager')
         $lfmVersion = $package->version;
 
     if ($package->name == 'laravel/framework')

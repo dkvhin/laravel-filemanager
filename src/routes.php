@@ -5,7 +5,7 @@ $middleware = array_merge(\Config::get('lfm.middlewares'), [
     '\UniSharp\LaravelFilemanager\Middlewares\CreateDefaultFolder',
 ]);
 $prefix = \Config::get('lfm.url_prefix', \Config::get('lfm.prefix', 'laravel-filemanager'));
-$as = 'unisharp.lfm.';
+$as = 'dkvhin.lfm.';
 $namespace = '\UniSharp\LaravelFilemanager\Controllers';
 
 // make sure authenticated
