@@ -19,25 +19,20 @@
     },
     {
       "name": "UniSharp Ltd.",
-      "email": "opensource@dkvhin.com"
+      "email": "dkvhin-service@dkvhin.com"
     }
   ],
   "require": {
     "php": ">=5.4.0",
     "ext-exif": "*",
     "ext-fileinfo": "*",
-    "intervention/image": "2.*",
-    "illuminate/config": "5.4.* || 5.5.* || 5.6.* || 5.7.*",
-    "illuminate/filesystem": "5.4.* || 5.5.* || 5.6.* || 5.7.*",
-    "illuminate/support": "5.4.* || 5.5.* || 5.6.* || 5.7.*",
-    "illuminate/http": "5.4.* || 5.5.* || 5.6.* || 5.7.*",
-    "illuminate/container": "5.4.* || 5.5.* || 5.6.* || 5.7.*",
-    "spatie/laravel-image-optimizer": "^1.3"
+    "illuminate/support": ">=4.2.0",
+    "intervention/image": "2.*"
   },
   "require-dev": {
-    "phpunit/phpunit": "^6.2",
-    "mockery/mockery": "^0.9.9",
-    "squizlabs/php_codesniffer": "^3.1"
+    "orchestra/testbench": "~3.0",
+    "phpspec/phpspec": "~2.1",
+    "phpunit/phpunit": "~4.8"
   },
   "suggest": {
     "ext-gd": "to use GD library based image processing.",
@@ -48,11 +43,7 @@
       "Dkvhin\\LaravelFilemanager\\": "src/"
     }
   },
-  "autoload-dev": {
-    "psr-4": {
-        "Tests\\": "tests"
-    }
-  },
+  "bin": ["bin/debug"],
   "extra": {
     "laravel": {
       "providers": [

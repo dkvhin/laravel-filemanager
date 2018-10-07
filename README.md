@@ -1,9 +1,6 @@
-<p align="center"><img src="https://dkvhin.github.io/laravel-filemanager/images/logo_type_1.png"></p>
-
-[![Travis CI](https://img.shields.io/travis/UniSharp/laravel-filemanager.svg)](https://travis-ci.org/UniSharp/laravel-filemanager)
-[![Total Downloads](https://poser.pugx.org/dkvhin/laravel-filemanager/downloads)](https://packagist.org/packages/dkvhin/laravel-filemanager)
-[![Latest Unstable Version](https://img.shields.io/badge/unstable-v2.0.0--alpha4-orange.svg)](https://packagist.org/packages/dkvhin/laravel-filemanager)
+# Laravel Filemanager
 [![Latest Stable Version](https://poser.pugx.org/dkvhin/laravel-filemanager/v/stable)](https://packagist.org/packages/dkvhin/laravel-filemanager)
+[![Total Downloads](https://poser.pugx.org/dkvhin/laravel-filemanager/downloads)](https://packagist.org/packages/dkvhin/laravel-filemanager)
 [![License](https://poser.pugx.org/dkvhin/laravel-filemanager/license)](https://packagist.org/packages/dkvhin/laravel-filemanager)
 
  * Document : [dkvhin.github.io/laravel-filemanager](http://dkvhin.github.io/laravel-filemanager/)
@@ -14,17 +11,6 @@
    * [Events](http://dkvhin.github.io/laravel-filemanager/events)
    * [Upgrade](http://dkvhin.github.io/laravel-filemanager/upgrade)
  * Demo : [Laravel Filemanager container](https://github.com/UniSharp/laravel-filemanager-example-5.3)
-
-## Installing alpha version
-The alpha version of `v2.0` contains support of cloud storage and fresh new UI with RWD.
-
- * Run `composer require dkvhin/laravel-filemanager:dev-master` to get the latest code.
- * Run `composer require dkvhin/laravel-filemanager:v2.0.0-alpha4` to get the latest release of alpha version.
-
-## Errors with namespace
-We have changed namespace from `Unisharp` to `UniSharp`, and change the first character of every namespace into capital.
-
-If you are updating this package and encounter any errors like `Class not found`, please remove this package entirely and reinstall again.
 
 ## v1.8 released
  * Please follow the intructions in [upgrade document](https://dkvhin.github.io/laravel-filemanager/upgrade).
@@ -41,8 +27,8 @@ If, for example, you want to ensure that only logged in users have the ability t
 
 ```php
 Route::group(['middleware' => 'auth'], function () {
-    Route::get('/laravel-filemanager', '\Dkvhin\LaravelFilemanager\Controllers\LfmController@show');
-    Route::post('/laravel-filemanager/upload', '\Dkvhin\LaravelFilemanager\Controllers\UploadController@upload');
+    Route::get('/laravel-filemanager', '\Dkvhin\LaravelFilemanager\controllers\LfmController@show');
+    Route::post('/laravel-filemanager/upload', '\Dkvhin\LaravelFilemanager\controllers\UploadController@upload');
     // list all lfm routes here...
 });
 ```
@@ -55,16 +41,13 @@ This approach ensures that only authenticated users have access to the Laravel-F
 * [x] (done) Unit test
 * [x] (done) Integrate with Laravel Storage
 * [x] (done) Multiple selection
-* [x] (done) Responsive design
-* [x] (done) Config refactoring
+* [ ] Configurable disk of storage
+* [ ] (in progress) Responsive design
+* [ ] (in progress) Config refactoring
 * [x] (done) JSON APIs
-* [x] (done) Move to folder function
-* [x] (done) Applying MIME icon generator
-* [x] (done) Refactor floating action buttons
-* [x] (done) Configurable disk of storage
+* [ ] Move to folder function
+* [ ] Applying MIME icon generator
 * [x] (done) Bootstrap 4 support
-* [x] (done) Remove bootbox
-* [ ] Documents for v2.0
 
 
 ## Contributors & Credits
@@ -80,12 +63,9 @@ This approach ensures that only authenticated users have access to the Laravel-F
  * [All contibutors](https://github.com/UniSharp/laravel-filemanager/graphs/contributors) from GitHub. (issues / PR)
  * [@taswler](https://github.com/tsawler) the original author of this package.
  * Nathan for providing security suggestions.
- * [@mdnazmulhasan27771](https://github.com/mdnazmulhasan27771) the designer of our logo. (Licensed CC BY 4.0)
 
 ### Credits
 
  * [@olivervogel](https://github.com/olivervogel) for the awesome [image library](https://github.com/Intervention/image).
  * SVG Loaders by [Sam](http://samherbert.net/svg-loaders/) (Licensed MIT)
- * Articles and videos which helped promoting this package.
- * All users and you.
 

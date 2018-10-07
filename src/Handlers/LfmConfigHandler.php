@@ -2,7 +2,7 @@
 
 namespace App\Handlers;
 
-class LfmConfigHandler extends \Dkvhin\Laravelfilemanager\Handlers\ConfigHandler
+class LfmConfigHandler extends \Dkvhin\LaravelFilemanager\Handlers\ConfigHandler
 {
     public function userField()
     {
